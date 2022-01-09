@@ -1,4 +1,4 @@
-package dev.pedronascimento.offgeo.ui.maps
+package dev.pedronascimento.geolocationregistry.ui.maps
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -20,7 +20,7 @@ import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.CameraPosition
 import com.google.android.gms.maps.model.LatLng
-import dev.pedronascimento.offgeo.R
+import dev.pedronascimento.geolocationregistry.R
 
 class MapsFragment : Fragment() {
 

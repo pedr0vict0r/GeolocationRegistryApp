@@ -1,4 +1,4 @@
-package dev.pedronascimento.offgeo
+package dev.pedronascimento.geolocationregistry
 
 import android.os.Bundle
 import android.view.Menu
@@ -11,7 +11,7 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.navigation.NavigationView
 import com.google.android.material.snackbar.Snackbar
-import dev.pedronascimento.offgeo.databinding.ActivityMainBinding
+import dev.pedronascimento.geolocationregistry.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 

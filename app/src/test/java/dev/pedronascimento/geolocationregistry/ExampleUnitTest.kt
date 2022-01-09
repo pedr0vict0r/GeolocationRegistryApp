@@ -1,4 +1,4 @@
-package dev.pedronascimento.offgeo
+package dev.pedronascimento.geolocationregistry
 
 import org.junit.Test
 

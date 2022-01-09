@@ -1,13 +1,13 @@
-package dev.pedronascimento.offgeo.ui.gallery
+package dev.pedronascimento.geolocationregistry.ui.maps
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class GalleryViewModel : ViewModel() {
+class MapsViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is gallery Fragment"
+        value = "This is Maps Fragment"
     }
     val text: LiveData<String> = _text
 }
